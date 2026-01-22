@@ -1,0 +1,76 @@
+{
+  // "files.eol": "\n",
+  "workbench.editor.labelFormat": "short",
+
+  // Formatação
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+
+  "explorer.compactFolders": false,
+
+  // Prettier
+  "prettier.singleQuote": false,
+  "prettier.trailingComma": "all",
+  "prettier.semi": false,
+  "prettier.tabWidth": 2,
+
+  // ESLint
+  "eslint.enable": true,
+  "eslint.format.enable": true,
+  "eslint.run": "onSave",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+
+  // TailwindCSS
+  "tailwindCSS.includeLanguages": {
+    "typescript": "html",
+    "typescriptreact": "html"
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+
+  // Sugestões de import
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+
+  // Caminhos (para Next.js com alias @)
+  "path-intellisense.mappings": {
+    "@": "${workspaceRoot}/src"
+  },
+
+  // NPM Scripts
+  "npm.packageManager": "npm",
+
+  // Para projetos grandes
+  "files.exclude": {
+    "**/.next": true,
+    "**/node_modules": true
+  },
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[svg]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "git.confirmSync": false
+}

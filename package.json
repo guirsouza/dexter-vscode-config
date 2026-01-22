@@ -1,0 +1,19 @@
+{
+  "name": "dexter-vscode-config",
+  "version": "1.0.0",
+  "description": "Configurações compartilhadas para o ecossistema Dexter",
+  "main": ".prettierrc",
+  "files": [
+    ".prettierrc",
+    ".eslintrc.json",
+    ".editorconfig",
+    ".vscode"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "[Dexter] Guilherme Souza <gui.rsouza@gmail.com>",
+  "license": "ISC",
+  "type": "commonjs"
+}
