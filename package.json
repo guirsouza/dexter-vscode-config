@@ -4,10 +4,11 @@
   "description": "Configurações compartilhadas para o ecossistema Dexter",
   "main": ".prettierrc",
   "files": [
-    ".prettierrc",
-    ".eslintrc.json",
-    ".editorconfig",
-    ".vscode"
+    ".prettierrc.json",
+    ".eslint.config.mjs",
+    ".gitigonre",
+    ".vscode/extensions.json",
+    ".vscode/settings.json"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
